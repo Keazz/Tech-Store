@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+
+    <h1><u>Computer store</u></h1>
+    <div class="container">
+
+        <div id="bank">
+            <h2>Jan Heyd</h2>
+            <div>
+                <span>Balance</span>
+                <span id="bank-balance">0,00 kr</span> 
+            </div>
+            <div id="display-debt">
+                <span>Debt</span>
+                <span id="debt"></span>
+            </div>
+            <button id="loan-btn">Get a loan</button>
+        </div>
+
+        <div id="work">
+            <h2>Work</h2>
+            <div>
+                <span>Pay</span>
+                <span id="work-balance">0,00 kr</span> 
+            </div>
+            <button id="repay-loan-btn">Repay loan</button>
+            <button id="work-btn">Work</button>
+            <button id="depposit-btn">Bank</button>
+        </div>
+
+        <div id="computer-store">
+            <h2>Computers</h2>
+            <select name="laptops" id="laptop-selector"></select>
+            <p id="feature"><b>Features:</b></p>
+            <ul id="feature-list">
+            </ul>
+        </div>
+    </div>
+    <div id="computer-showcase">
+        <div>
+            <img src="" alt="" id="computer-img">
+        </div>
+
+        <div>
+            <h1 id="product-name"></h1>
+            <p id="product-description"></p>
+        </div>
+
+        <div id="buy-section">
+            <h1 id="product-price"></h1>
+            <button id="buy-now-btn">Buy Now!</button>
+        </div>
+    </div>
+</body>
+</html>

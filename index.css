@@ -1,0 +1,169 @@
+.container {
+    display: flex;
+    gap: 10px;
+}
+.container > div {
+    width: 280px;
+    height: 220px;
+    border-radius: 15px;
+    background-color: rgb(242, 243, 248);
+    padding-left: 1em;
+    position: relative;
+}
+
+#display-debt {
+    margin-top: 1em;
+}
+
+#computer-showcase {
+    margin-top: 10px;
+    width: 908px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: rgb(242, 243, 248);
+    border: 1px solid rgb(170, 171, 173);
+    display: flex;
+    gap: 10px;
+}
+
+#computer-showcase > div {
+    width: 300px;
+    padding-left: 1em;
+    position: relative;
+}
+
+#computer-img {
+    height: 230px;
+    width: 230px;
+    margin: 10px;
+}
+
+#buy-section h1 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+#laptop-selector {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#feature-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    font-size: 12px;
+    margin-top: 0px;
+    height: 15px
+    
+}
+
+#feature {
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+    height: 15px;
+}
+
+#bank-balance {
+    float: right;
+    margin-right: 2em;
+}
+
+#work-balance {
+    float: right;
+    margin-right: 2em;
+}
+
+#debt {
+    float: right;
+    margin-right: 2em;
+}
+
+#buy-now-btn {
+    position: absolute;
+    bottom: 8em;
+    left: 5.5em;
+    padding: 10px 50px;
+
+    background-color: rgb(234, 165, 47);
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: rgb(87, 86, 83)
+}
+
+#buy-now-btn:active {
+    background-color: rgb(191, 137, 44);
+    border-color: rgb(87, 86, 83)
+}
+
+#repay-loan-btn {
+    position: absolute;
+    bottom: 4.25em;
+    left: 1em;
+    padding: 10px 100px;
+
+    background-color: rgb(47, 255, 144);
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: rgb(29, 153, 87)
+}
+
+#repay-loan-btn:active {
+    background-color: rgb(35, 184, 105);
+    border-color: rgb(23, 123, 70)
+}
+
+#loan-btn {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    padding: 10px 100px;
+
+    background-color: rgb(47, 255, 144);
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: rgb(29, 153, 87)
+}
+
+#loan-btn:active {
+    background-color: rgb(35, 184, 105);
+    border-color: rgb(23, 123, 70)
+}
+
+#work-btn {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    padding: 10px 50px;
+
+    background-color: rgb(96, 142, 201);
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: rgb(54, 78, 109);
+}
+
+#work-btn:active {
+    background-color: rgb(80, 117, 165);
+    border-color: rgb(54, 78, 109);
+}
+
+#depposit-btn {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    padding: 10px 50px;
+
+    background-color: rgb(245, 249, 144);
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: rgb(90, 90, 89);
+}
+
+#depposit-btn:active {
+    background-color: rgb(198, 201, 115);
+    border-color: rgb(90, 90, 89);
+}
